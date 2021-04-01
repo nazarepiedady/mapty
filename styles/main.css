@@ -57,3 +57,7 @@ a:visited {
   list-style: none;
   overflow: hidden scroll;
 }
+
+.workouts::-webkit-scrollbar {
+  width: 0;
+}
