@@ -51,3 +51,9 @@ a:visited {
   align-self: center;
   margin-bottom: 4rem;
 }
+
+.workouts {
+  height: 77vh;
+  list-style: none;
+  overflow: hidden scroll;
+}
