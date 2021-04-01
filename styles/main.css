@@ -30,3 +30,9 @@ body {
   color: var(--color-light--2);
   font-family: 'Manrope', sans-serif;
 }
+
+/* GENERAL */
+a:link,
+a:visited {
+  color: var(--color-brand--1);
+}
