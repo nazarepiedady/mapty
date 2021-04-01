@@ -18,3 +18,15 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  padding: 2.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: #fff;
+  overscroll-behavior-y: none;
+  color: var(--color-light--2);
+  font-family: 'Manrope', sans-serif;
+}
