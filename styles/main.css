@@ -77,3 +77,7 @@ a:visited {
 .workout--running {
   border-left: 5px solid var(--color-brand--2);
 }
+
+.workout--cycling {
+  border-left: 5px solid var(--color-brand--1);
+}
