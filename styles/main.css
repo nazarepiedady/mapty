@@ -148,3 +148,14 @@ a:visited {
   font-weight: 600;
   font-size: 1.5rem;
 }
+
+.form__input {
+  border: 0;
+  width: 100%;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  font-family: inherit;
+  transition: all 0.2s;
+  padding: 0.3rem 1.1rem;
+  background-color: var(--color-light--3);
+}
