@@ -81,3 +81,9 @@ a:visited {
 .workout--cycling {
   border-left: 5px solid var(--color-brand--1);
 }
+
+.workout__title {
+  font-weight: 600;
+  font-size: 1.7rem;
+  grid-column: 1 / -1;
+}
