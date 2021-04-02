@@ -181,3 +181,8 @@ a:visited {
   transition: all 0.2s;
   color: var(--color-light--1);
 }
+
+.twitter-link:hover,
+.twitter-link:active {
+  color: var(--color-light--2);
+}
