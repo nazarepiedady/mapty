@@ -175,3 +175,9 @@ a:visited {
   text-align: center;
   color: var(--color-light--1);
 }
+
+.twitter-link:link,
+.twitter-link:visited {
+  transition: all 0.2s;
+  color: var(--color-light--1);
+}
