@@ -125,3 +125,11 @@ a:visited {
   height: 9.5rem;
   transition: all 0.5s, transform 1ms;
 }
+
+.form.hidden {
+  height: 0;
+  opacity: 0;
+  margin-bottom: 0;
+  padding: 0 2.25rem;
+  transform: translate3d(0, -30rem, 0);
+}
