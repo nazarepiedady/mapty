@@ -103,3 +103,10 @@ a:visited {
   font-size: 1.5rem;
   margin-right: 0.5rem;
 }
+
+.workout__unit {
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: var(--color-light--1);
+}
