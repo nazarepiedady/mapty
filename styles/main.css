@@ -159,3 +159,8 @@ a:visited {
   padding: 0.3rem 1.1rem;
   background-color: var(--color-light--3);
 }
+
+.form__input:focus {
+  outline: none;
+  background-color: #fff;
+}
