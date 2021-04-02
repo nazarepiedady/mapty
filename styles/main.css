@@ -92,3 +92,9 @@ a:visited {
   display: flex;
   align-items: baseline;
 }
+
+.workout__icon {
+  height: 0.28rem;
+  font-size: 1.8rem;
+  margin-right: 0.2rem;
+}
