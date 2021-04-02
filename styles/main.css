@@ -133,3 +133,8 @@ a:visited {
   padding: 0 2.25rem;
   transform: translate3d(0, -30rem, 0);
 }
+
+.form__row {
+  display: flex;
+  align-items: center;
+}
