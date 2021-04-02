@@ -110,3 +110,14 @@ a:visited {
   text-transform: uppercase;
   color: var(--color-light--1);
 }
+
+.form {
+  border-radius: 4px;
+  margin-bottom: 1.75rem;
+  padding: 1.5rem 2.75rem;
+  background-color: var(--color-dark--2);
+
+  display: grid;
+  gap: 0.5rem 2.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
