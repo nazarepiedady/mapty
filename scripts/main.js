@@ -31,4 +31,8 @@ class Workout {
       moths[this.date.getMonth()]
     } ${this.date.getDate()}`;
   }
+
+  click() {
+    this.clicks++;
+  }
 }
