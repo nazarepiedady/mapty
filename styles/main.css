@@ -168,3 +168,10 @@ a:visited {
 .form__button {
   display: none;
 }
+
+.copyright {
+  margin-top: auto;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--color-light--1);
+}
