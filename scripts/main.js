@@ -28,7 +28,7 @@ class Workout {
     ];
 
     this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} on ${
-      moths[this.date.getMonth()]
+      months[this.date.getMonth()]
     } ${this.date.getDate()}`;
   }
 
@@ -173,6 +173,24 @@ class App {
       )
         return alert('Inputs have to be positive numbers!');
       workout = new Running([latitude, longitude], distance, duration, cadence);
+    }
+
+    // If workout cycling, create cycling object
+    if (type === 'cycling') {
+      const elevation = +$inputElevation.value;
+
+      if (
+        !validInputs(distance, duration, elevation) ||
+        !allPositive(distance, duration)
+      )
+        return alert('Inputs have to be positive numbers');
+
+      workout = new Cycling(
+        [latitude, longitude],
+        distance,
+        duration,
+        elevation
+      );
     }
 
     // Add new object to workout array
