@@ -86,4 +86,15 @@ class App {
   mapZoomLevel = 13;
   mapEvent = null;
   workouts = [];
+
+  constructor() {
+    // Get users position
+    this._getPosition();
+    // Get data from local storage
+    this._getLocalStorage();
+    // Attach event handlers
+    $form.addEventListener('submit', this._newWorkout.bind(this));
+    $inputType.addEventListener('change', this._toggleElevationField);
+    $containerWorkouts.addEventListener('click', this._moveToPopup.bind(this));
+  }
 }
