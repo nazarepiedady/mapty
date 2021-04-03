@@ -255,4 +255,22 @@ class App {
 
     $form.insertAdjacentHTML('afterend', $markup);
   }
+
+  _moveToPopup(e) {
+    // Prevent to get a error when click on a workout before the map has loaded
+    if (!this.map) return;
+
+    const $workout = e.target.closest('.workout');
+
+    if (!$workout) return;
+
+    const workout = this.workouts.find(work => work.id === $workout.dataset.id);
+
+    this.map.setView(workout.coords, this.mapZoomLevel, {
+      animate: true,
+      pan: {
+        duration: 1,
+      },
+    });
+  }
 }
