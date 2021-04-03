@@ -46,4 +46,10 @@ class Running extends Workout {
     this.calculatePace();
     this._setDescription();
   }
+
+  calculatePace() {
+    // min / km
+    this.pace = this.duration / this.distance;
+    return this.pace;
+  }
 }
