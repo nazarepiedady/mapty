@@ -53,3 +53,7 @@ class Running extends Workout {
     return this.pace;
   }
 }
+
+class Cycling extends Workout {
+  type = 'cycling';
+}
