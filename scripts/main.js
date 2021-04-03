@@ -143,4 +143,9 @@ class App {
     $form.classList.add('hidden');
     setTimeout(() => ($form.style.display = 'grid'), 1000);
   }
+
+  _toggleElevationField() {
+    $inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
+    $inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
+  }
 }
