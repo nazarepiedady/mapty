@@ -36,3 +36,5 @@ class Workout {
     this.clicks++;
   }
 }
+
+class Running extends Workout {}
