@@ -294,3 +294,5 @@ class App {
     location.reload();
   }
 }
+
+const app = new App();
