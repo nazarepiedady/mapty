@@ -273,4 +273,8 @@ class App {
       },
     });
   }
+
+  _setLocalStorage() {
+    localStorage.setItem('workouts', JSON.stringify(this.workouts));
+  }
 }
