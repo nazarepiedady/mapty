@@ -63,4 +63,10 @@ class Cycling extends Workout {
     this.calculateSpeed();
     this._setDescription();
   }
+
+  calculateSpeed() {
+    // km/h
+    this.speed = this.distance / (this.duration / 60);
+    return this.speed;
+  }
 }
